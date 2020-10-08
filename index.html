@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Facund1n">
+  <meta name="keywords" content="remake, tarea, rolling, code, school">
+  <link rel="icon" href="./img/favicon.jpg">
+  <link rel="stylesheet" href="./stylescustom/csscustom.css">
+  <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+  </style>
+
+  <title>Tarea2</title>
+</head>
+
+<body class="text-success fondo padding">
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="./Bootstrap/js/bootstrap.min.js"></script>
+
+  <header>
+    <!-- nav bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo.png" width="100px" height="30px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-success" href="#quees">¿Qué es la Matrix?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#personajes">Personajes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success " href="#fotos">Fotos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="https://es.wikipedia.org/wiki/Matrix" target="_blank">Más</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- jumbo -->
+    <span class="border">
+      <div class="jumbotron jumbotron-fluid degrade">
+        <div class="container">
+          <h1 class="display-4 matrix">MATRIX</h1>
+          <p class="lead">
+          <dl class="dl-horizontal">
+            <dt class="col-sm-3">Director‎: </dt>
+            <dd class="col-sm-9">The Wachowski Brothers.</dd>
+            <dt class="col-sm-3">Estreno‎:</dt>
+            <dd class="col-sm-9">31 de marzo de 1999.</dd>
+            <dt class="col-sm-3">Director de Arte‎: </dt>
+            <dd class="col-sm-9">Hugh Bateup y Michelle.</dd>
+            <dt class="col-sm-3">Producción General‎:</dt>
+            <dd class="col-sm-9">Joel Silver</dd>
+          </dl>
+          </p>
+        </div>
+      </div>
+    </span>
+  </header>
+
+  <!--  -->
+  <a name="quees">
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+      <h3>¿Qué es la Matrix?</h3>
+      <p class="lead"> La Matrix es un ambiente de relación entre cosas y sucesos creado y controlado artificialmente.
+        Una importante característica de la matrix es que en ella incluso las personas son consideradas cosas. Casi
+        todos los seres humanos han sido esclavizados, tras una dura guerra, por las máquinas y las inteligencias
+        artificiales creadas. Los seres humanos son usados por las máquinas para obtener energía, y las pocas personas
+        que no están suspendidas o que han sido liberados viven en la ciudad Zion y tienen naves que se mueven por el
+        subsuelo, entrando de forma clandestina a la Matrix para liberar otras personas conectadas.</p>
+    </div>
+
+    <br>
+
+    <!-- carousel -->
+    <a name="personajes">
+      <br>
+      <br>
+      <br>
+      <div class="container-fluid">
+        <h3>Personajes</h3>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner img">
+          <div class="carousel-item active">
+            <img class="d-block mx-auto" src="./img/neo.jpg" alt="First slide" width="780" height="440">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>NEO</h5>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block mx-auto" src="./img/morfeo.jpg" alt="Second slide" width="780" height="440">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>MOPHEUS</h5>
+              <p>Molestias inventore porro delectus eveniet, numquam velit odio adipisci ad cupiditate nulla libero
+                sunt. </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block mx-auto" src="./img/trinity.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>TRINITY</h5>
+              <p>Sapiente quibusdam culpa recusandae ab accusamus earum blanditiis laborum dolorem nihil voluptatum.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <br>
+      <!-- fotos -->
+
+      <a name="fotos">
+        <br>
+        <br>
+        <br>
+
+        <div class="container-fluid">
+          <h3>Fotos:</h3>
+          <br>
+          <div class="col-12 col-md-6">
+            <br>
+            <div class="col-sm-6">
+              <img src="./img/1.jpg" height="40%" width="40%">
+            </div>
+            <br>
+            <div class="col-sm-6">
+              <img src="./img/2.jpg" height="40%" width="40%">
+            </div>
+            <br>
+            <div class="col-sm-6">
+              <img src="./img/3.jpg" height="40%" width="40%">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <br>
+          <div class="col-sm-6">
+            <img src="./img/4.jpg" height="40%" width="40%">
+          </div>
+          <br>
+          <div class="col-sm-6">
+            <img src="./img/5.jpg" height="40%" width="40%">
+          </div>
+          <br>
+          <div class="col-sm-6">
+            <img src="./img/6.jpg" height="40%" width="40%">
+          </div>
+        </div>
+        </div>
+
+</body>
+
+</html>
